@@ -1,0 +1,87 @@
+*{
+    user-select: none;
+}
+/* ------ container principal ------ */
+.MainContentHome{
+    flex-direction: row;
+    display: flex;
+    padding: 30px 10px;
+    justify-content: space-evenly;
+}
+
+/* ------ container informações ------ */
+
+.InfoContentHome{
+    width: 37vw;
+    height: 65vh;
+    padding: 10px 50px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.TitleInfoHome{
+    margin-top: -15px;
+    font-size: 3em;
+    color: var(--color-white);
+    padding: 0px 30px;
+    font-family: var(--font-roboto);
+}
+
+.typingHome{
+    width: 500px;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space:  nowrap;
+    overflow: hidden;
+    font-family: var(--font-roboto);
+    font-size: 1em;
+    color: var(--color-primary);
+    margin-top: -5px;
+}
+
+@keyframes typing{
+    from{
+        width: 0;
+    }
+}
+
+@keyframes blink {
+    50%{
+        border-color: transparent;
+    }
+}
+
+.DescInfoHome{
+    font-size: 25px;
+    color: #807b78;
+    margin-left: 30px;
+    font-family: var(--font-roboto);
+}
+
+.ContentLinksHome{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 69%;
+    height: 15%;
+    margin-top: 10px;
+
+}
+
+/* ------ FIM container informações ------ */
+
+/* ------ container imagem ------ */
+
+.ImgContentHome{
+    width: 35vw;
+    height: 65vh;
+    padding: 0px 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+/* ------ FIM container imagem ------ */
+
+

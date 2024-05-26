@@ -1,0 +1,10 @@
+.swiper {
+    width: 81%;
+    height: 100%;
+    display: flex;
+  }
+.slide-item{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}   

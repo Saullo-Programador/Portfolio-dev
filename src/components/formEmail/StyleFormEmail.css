@@ -1,0 +1,56 @@
+.FormeInfoPessoais{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.FormContainerMensg{
+    width: 100%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+}
+.form-boxMessage{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-boxMessage label{
+    font-family: var(--font-roboto);
+    color: var(--color-white);
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+
+.Form-Message{
+    border: none;
+    border-radius: 30px;
+    font-family: var(--font-roboto);
+    font-size: 17px;
+    height: 220px;
+    margin: 8px 0 0;
+    outline: none;
+    padding: 20px 0 0 20px;
+    display: flex;
+    width: 100%;
+    max-width: 300px;
+    min-width: 100%;
+    height: 220px;
+    min-height: 100px;
+    background-color: #121212;
+    color: var(--color-white);
+}
+
+.BoxButtonSubmit {
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 5px 0 0 10px;
+}

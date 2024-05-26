@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* ------ Main About ------ */
+
+.MainContentAbout{
+    width: 100%;
+    height: 73%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ImgContentAbout{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BoxImgAbout {
+    width: 46%;
+    height: 82%;
+    border-radius: 20px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgb(142, 49, 255) 1px 1px 10px 2px;
+    background-image: linear-gradient(144deg,#9500ff, #4c00ff 50%,#dd00ff);
+  }
+  
+  .ImgAbout {
+    background: rgb(5, 6, 45);
+    border-radius: 17px;
+    width: 98%;
+    height: 98%;
+  }
+
+.InfoContentAbout{
+    width: 58%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.TitleInfoAbout{
+    color: var(--color-tertiary);
+    font-size: 40px;
+    font-family: var(--font-montserrat);
+    margin: 30px 0 10px 0 ;
+}
+
+.DescInfoAbout{
+    color: var(--color-white);
+    font-family: var(--font-noto-sans);
+    font-size: 19px;
+}
+
+/* ------ Main About Fim ------ */
+
+/* ------ Footer About ------ */
+
+.FooterContentAbout{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
