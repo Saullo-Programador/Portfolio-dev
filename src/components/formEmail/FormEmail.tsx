@@ -50,7 +50,7 @@ export default function FormEmail() {
     };
 
     
-const Action = (
+const action = (
     <React.Fragment>
       <Button color="secondary" size="small" onClick={handleClose}>
         UNDO
@@ -118,7 +118,7 @@ const Action = (
                     autoHideDuration={6000}
                     onClose={handleClose}
                     message="enviado com sucesso..."
-                    action={Action}
+                    action={action}
                 />
             </span>
         </form>
